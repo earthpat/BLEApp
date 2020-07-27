@@ -32,7 +32,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             central.scanForPeripherals(withServices: nil, options: nil)
         }
         else {
-            print("Something wrong with BLE")
+            print("Something wrong with BLE ")
             // Not on, but can have different issues
         }
     }
